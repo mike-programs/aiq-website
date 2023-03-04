@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+html,body {
+    min-height: 100%;
+    background: rgb(12,12,67);
+    background: linear-gradient(128deg, rgba(12,12,67,1) 0%, rgba(90,90,168,1) 72%);
+    /* overscroll-behavior-y: none; */
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+    /* overflow-y: hidden; */
+    color: #001020 !important
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: -webkit-fill-available !important;
+}
+
+.f-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.f-nunito {
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.offcanvas {
+    width: 100% !important;
+}
